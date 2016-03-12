@@ -1,0 +1,1169 @@
+.full-width-content .site-header .wrap {
+    max-width: 1180px;
+    width: 100%;
+}
+
+body 
+{
+	color: #2C2E2B;
+}
+
+/***************************************HEADER*****************************************/
+
+.site-header
+{
+	
+	position: fixed !important; 
+	border-bottom: .5px solid #f4f4f4;
+	width: 100%;
+	z-index: 1;
+	background-color: #fff;
+}
+
+body.page-id-32 .site-header 
+{
+	display: none;
+}
+
+body.page-id-32 .site-header .widget-area 
+{
+    max-width: 650px;
+    padding: 1.5% 1% 0;
+    float: right;
+    text-align: right;
+    width: 96%;
+    margin: 0 1% 0;
+    display: block;
+}
+
+.header-image .site-header .wrap .title-area 
+{
+    background: url(images/hbdlogo.png) left top no-repeat;
+    height: 65px;
+    margin: .5%;
+    float: left;
+}
+
+
+/****************************************************************************/
+/*******************************HERO*****************************************/
+
+#hero
+{
+	width: 100%;
+	padding-top: 2.5em;
+	margin-top: 2%;
+}
+
+/****************************************************************************/
+/**************************HOME_TOP_WIDGET***********************************/
+
+#home_top 
+{
+	padding-top: 155px;
+	background: url("http://hummingbirdesigns.com/wp-content/uploads/2016/03/HomeTopWidgetBackground2HBD.png") no-repeat top;
+	background-size: cover;
+	background-color: #fff;
+	width: 100%;
+	height: auto;
+}
+
+#home_top h1, #home_top h2 
+{
+    text-align: center;
+    max-width: 800px;
+    display: block;
+    margin: 0 auto;
+	
+}
+
+#home_top img 
+{
+	display: block;
+	margin: 0 auto 3em;
+}
+
+.tagline {
+    color: #e33666;
+    display: block;
+    margin: 0 auto;
+    width: 215px;
+    padding: 1em 1em 2.5em 1em;
+    font-size: 1.5em;
+}
+
+.front-page-nav {
+
+    color: #2C2E2B;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    position: relative;
+}
+
+.front-page-nav li
+{
+	list-style-type: none;
+	display: inline;
+}
+
+.front-page-nav-mobile > .menu 
+{
+	min-height: 150px;
+}
+
+/****************************************************************************/
+/***********************************GENERAL**********************************/
+
+#text-41
+{
+	padding: 3.5em 0;
+}
+
+
+
+.dynamik-widget-area a, .dynamik-widget-area 
+{
+	color: #2C2E2B; 
+}
+
+.dynamik-widget-area a:hover {
+    color: #e33666;
+    text-decoration: none;
+}
+
+.about, .whatwedo, .seeourwork, .blog
+{
+	border-right: 1px solid #2c2e2b;
+}
+
+.dynamik-widget-area ul li {
+    list-style-type: square;
+    margin: 0px 0 0 15px;
+    padding: 0 20px 0 0;
+}
+
+/****************************************************************************/
+/**************************************BUTTONS*******************************/
+#digital-button, input[type="submit"]
+{
+	max-width: 8em;
+	width: 98%;
+	color: #fff;
+	background-color: #2C2E2B ;
+	border: 2px solid #2C2E2B ;
+	display: block;
+	margin: 5em auto 2em;
+	text-align: center;
+	font-size: 1.5em;
+	padding: .25em .5em;
+	clear: both;
+}
+
+#digital-button a
+{
+	color: #fff;
+	text-decoration: none;
+}
+
+#digital-button:hover, input[type="submit"]:hover 
+{
+	border: 2px solid #e33666;
+	background-color: #E87A99;
+}
+
+#aboutfooter > #digital-button
+{
+	position: relative;
+	top: 5em;
+}
+
+/****************************************************************************/
+/**********************************HOME MIDDLE*******************************/
+
+#home_middle
+{
+    padding: 50px 0 10px;
+}
+#home_middle h3, #home_bottom h3 
+{
+	text-align: center;
+}
+
+.whatwedoimages
+{
+    display: block;
+    position: static;
+    min-height: 195px;
+    margin-top: 75px;
+	max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.whatwedoimages p
+{
+    max-width: 1134px;
+    width: 33.33%;
+    float: left;
+	display: block;
+	margin: 0 auto;
+    text-align: center;
+}
+
+/****************************************************************************/
+/**********************************HOME BOTTOM*******************************/
+
+#home_bottom
+{
+	padding-top: 1em;
+}
+
+.be-social {
+    width: 100%;
+    display: block;
+    margin: 5em auto 0;
+    height: 425px;
+    background: #aaf8eb;
+}
+
+.be-social h3
+{
+	padding: 3em 0;
+}
+
+.be-social > #digital-button
+{
+	margin: 3em auto !important;
+}
+
+/*************************************************************************************************/
+/***********************************************FOOTER********************************************/
+
+footer
+{
+	margin: 1em auto;
+}
+
+.footertext a
+{
+	color: #2C2E2B !important;
+}
+
+
+/*************************************************************************************************/
+/*******************************************ABOUT-US-PAGE*****************************************/
+
+.main-content 
+{
+    max-width: 1140px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.main-content-inner
+{
+	max-width: 1000px;
+	width: 100%;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+}
+
+.wedding-pic {
+    width: 100%;
+    display: block;
+    margin: 0 auto 5%;
+    min-height: 350px;
+}
+
+.wedding-pic img
+{
+	display: inline-block;
+	margin: 0 5%;
+}
+
+.about-header 
+{
+    display: inline-block;
+    margin: 3.5% 5% 5%;
+    vertical-align: top;
+}
+
+.about-content 
+{
+    display: block;
+    margin: 10% auto 10%;
+    text-align: center;
+    width: 100%;
+	height: auto;
+}
+
+.about-p
+{
+	padding: 2% 5%;
+}
+
+.we-are-you 
+{
+    display: block;
+    background-color: #fff;
+    border: 2px solid #c1b380;
+    max-width: 600px;
+    width: 100%;
+	height: auto;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.about-serious
+{
+	display: block;
+	max-width: 300px;
+	width: 100%;
+	height: auto;
+	margin: 0 auto 5%;
+}
+
+.about-serious::after 
+{
+	content: url(http://hummingbirdesigns.com/wp-content/uploads/2016/03/arrowright.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+	 
+
+.about-header::after
+
+{
+	content: url(http://hummingbirdesigns.com/wp-content/uploads/2016/03/arrowleft.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.hummingbird-facts
+{
+	display: block;
+    background-color: #fff;
+    border: 2px solid #c1b380;
+    max-width: 600px;
+    width: 100%;
+	height: auto;
+    text-align: center;
+	margin: 10% auto -3%;
+}				 
+
+/*************************************************************************************************/
+/*******************************************WHAT WE DO PAGE***************************************/
+
+.lets-break
+{
+	max-width: 500px;
+	width: 100%;
+	min-height: 300px;
+	display: block;
+	margin: 2% auto;
+	text-align: center;
+}
+
+.lets-break h1
+{
+	text-transform: capitalize;
+	font-weight: 700;
+	padding: 5% 10%;
+
+}
+
+.lets-break h2
+{
+	font-weight: 600;
+}
+
+.lets-break h3
+{
+
+}
+
+.line-two
+{
+	height: 2px;
+	background-color: #e33666;
+	max-width: 500px;
+	display: block;
+	margin: 1em auto 2em;
+}
+
+.responsive, .responsive-two
+{
+	position: relative;
+	max-width: 800px;
+	width: 100%;
+	min-height: 230px;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+}
+
+.responsive img 
+{
+    position: relative;
+    display: block;
+    margin: 3.5% auto 0;
+    float: left;
+	text-align: center;
+}
+
+.responsive p 
+{
+    position: relative;
+    display: block;
+    margin: 5% auto;
+    float: right;
+	text-align: center;
+}
+
+.responsive-two
+{
+	margin: 0 auto 4%;
+}
+
+.responsive-two img 
+{
+    position: relative;
+    display: block;
+    margin: 8% auto 0;
+    float: right;
+	text-align: center;
+}
+
+.responsive-two p
+{
+	position: relative;
+    display: block;
+    margin: 5% auto;
+    float: left;
+	text-align: center;
+}
+
+.golden-rule
+{
+	background-color: #c1b380;
+	max-width: 1000px;
+	border: 1px solid white;
+	text-align: center;
+	padding: 5%;
+	display: block;
+	margin: 0 auto 5%;
+	color: #fff;
+	font-size: 1.5em;
+	clear: both;
+}
+
+.our-services
+{
+	text-align: center;
+}
+
+.services 
+{
+    position: relative;
+    max-width: 1000px;
+    width: 100%;
+    min-height: 200px;
+    /* padding: 5%; */
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.services > ul 
+{
+	list-style: none;
+}
+
+.services > .one, .services > .two, .services > .three
+{
+	max-width: 333px;
+	width: 100%;
+	float: left;
+	display: block;
+	position: relative;
+}
+
+span.arrow::before 
+
+{
+	content: url('http://hummingbirdesigns.com/wp-content/uploads/2016/03/listicon.png');
+	background-repeat: no-repeat;
+	padding: 20px;
+}
+
+.hbd-package 
+{
+	max-width: 500px;
+    height: auto;
+    display: block;
+    margin: 0 auto 5%;
+    border: 2px solid #c1b380;
+    text-align: center;
+    list-style: none;
+    padding: 5%;
+}
+
+.hbd-package > ul
+{
+	margin-top: 3.5em;
+	list-style: none;
+}
+
+.fa-angle-double-right
+{
+	color: #c1b380;
+}
+
+.disclaimer 
+{
+    max-width: 300px;
+    border: 1px dashed #c1b380;
+    padding: 4% 3%;
+    text-align: center;
+    display: block;
+    margin: 2em auto 0;
+}
+
+.planning
+{
+	max-width: 1000px;
+	width: 100%;
+	min-height: 300px;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+}
+
+.planning > #digital-button
+{
+	 margin: 2em auto 3em;
+}
+.planning h1
+{
+
+}
+
+.planning h2
+{
+	color: #e33666;
+}
+
+.im-in-button
+{
+
+}
+
+.something-else
+{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	color: #fff;
+	background-color: #e33666;
+	padding: 3em 0;
+}
+
+.something-else > p
+{
+	font-size: 2em;
+}
+
+/*************************************************************************************************/
+/*******************************************BLOG PAGE*********************************************/
+
+.blog-entry 
+{
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.blog-image
+{
+	width: 30%;
+	display: block;
+	float: left;
+	margin: 2.5% 2.5%;
+}
+
+.blog-main-p
+{
+	width: 60%;
+	display: block;
+	float: left;
+	margin: 2.5% 2.5%;
+}
+
+/*************************************************************************************************/
+/**********************************CONTACT PAGE***************************************************/
+
+.pink 
+{
+	display: block; 
+	width: 100%;
+	min-height: 200px;
+	background-color: #e33666;
+	color: #fff;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.pink h2 
+{
+	padding-top: 3.5em;
+}
+
+h2 
+{
+	text-align: center;
+}
+
+.mobile-image
+{
+	margin: 4em auto;
+	text-align: center;
+}
+
+.mobile-image h2 
+{
+	padding-top: 2em;
+}
+
+/*************************************************************************************************/
+/*******************************************CONTACT FORM 7****************************************/
+
+#text-43
+{
+	background-color: #e33666 !important;
+	text-align: center !important;
+}
+
+#contact_2
+{
+	text-align: center !important;
+	background-color: #e33366 !important;
+}
+
+#contact_2 p 
+{
+	color: white;
+	text-transform: uppercase;
+	padding-bottom: 1em;
+	
+}
+
+.wpcf7 input[type="text"], .wpcf7 input[type="email"], .wpcf7 textarea 
+{ 
+    max-width: 614px;
+    width: 100%;
+    padding: 1em 0;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.wpcf7 input[type="text"],.wpcf7 input[type="email"]
+{
+	height: 1em
+}
+
+.wpcf7 p 
+{
+	color: white;
+	font-size: 1.5em;
+	padding-top: 1em;
+}
+
+.wpcf7-submit
+{
+        margin: 0 auto !important;
+}
+
+span.wpcf7-not-valid-tip
+{
+	color: yellow !important;
+}
+div.wpcf7-validation-errors
+{
+	color: yellow !important;
+}
+
+/*********************************************************************************************/
+/**********************************RESPONSIVE MENU********************************************/
+
+.responsive-primary-menu-container 
+{ 
+	background: #333333; 
+	border-bottom: 2px solid #DDDDDD; 
+	width: 100%; padding: 12px 0; 
+	overflow: hidden; cursor: pointer; 
+	-webkit-box-sizing: border-box; 
+	box-sizing: border-box; display: none; } 
+.responsive-primary-menu-container h3 
+{ 
+	padding-left: 15px; 
+	color: #AAAAAA; font-size: 16px; 
+	font-size: 1.6rem; font-family: PT Sans, sans-serif; 
+	font-weight: normal; float: left; } 
+.responsive-primary-menu-container .responsive-menu-icon 
+{ 
+	padding: 5px 15px 0 0; 
+	float: right; 
+} 
+.responsive-primary-menu-container .responsive-icon-bar 
+{ 
+	display: block; 
+	width: 18px; 
+	height: 3px; 
+	background: #AAAAAA; 
+	margin: 1px 0; 
+	float: right; 
+	clear: both; 
+	-webkit-border-radius: 1px; 
+	border-radius: 1px; }
+
+/*********************************************************************************************/
+/**********************************RESPONSIVE MENU********************************************/
+
+#click-menu 
+{
+	background: transparent !important;
+}
+
+#responsive-menu
+{
+    height: 355px !important;
+	width: 50% !important;
+}
+
+#click-menu.admin-bar-showing 
+{
+    margin-top: 0px !important;
+}
+
+#click-menu .threeLines .line 
+{
+    height: 5px !important;
+    margin-bottom: 6px !important;
+    background: #2C2E2B !important;
+    width: 100% !important;
+}
+
+#click-menu #RMX 
+{
+	color: #fff !important;
+}
+
+/******************************************************************************************************/
+/**********************************SOCIAL ICONS********************************************************/
+
+#socialicons
+
+{
+    text-align: center;
+    font-size: 4em;
+}
+
+/******************************************************************************************************/
+/**********************************MEDIA QUERIES*******************************************************/
+
+@media screen and (max-width: 1013px) and (min-width: 320px){
+
+#hero
+{
+	width: 100%;
+	padding-top: 2.5em;
+	margin-top: 3.5%;
+}
+	
+.responsive img 
+{
+    position: relative;
+    width: 30%;
+    display: inline-block;
+    margin: 3% auto 5%;
+    float: none !important;
+	text-align: center;
+}
+
+.responsive p 
+{
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    margin: 5% auto 10%;
+    float: none !important;
+	text-align: center;
+}
+
+.responsive-two img 
+{
+    position: relative;
+    width: 30%;
+    display: inline-block;
+    margin: 2.3% auto 5%;
+    float: none !important;
+	text-align: center;
+}
+
+.responsive-two p
+{
+	position: relative;
+    width: 100%;
+    display: inline-block;
+    margin: 5% auto 12%;
+    float: none !important;
+	text-align: center;
+}
+
+.services
+{
+	position: relative;
+	max-width: 350px;
+	width: 100%;
+	min-height: 300px;
+	padding: 5%;
+	display: block;
+	margin: 0 auto 5%;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.our-services
+{
+	max-width: 400px;
+	width: 100%;
+	display: block;
+	margin: 9% auto 0; 
+}
+
+.services > .one, .services > .two, .services > .three
+{
+	max-width: 350px;
+	width: 100%;
+	float: none;
+	display: block;
+	list-style: none;
+	margin: 0 auto;
+}
+
+.golden-rule
+{
+	padding: 10%;
+}
+
+.hbd-package
+{
+	padding: 9%;
+}
+
+.planning
+{
+	padding-top: 3%;
+}
+
+.something-else
+{
+	padding-top: 4em;
+	padding-bottom: 4em;
+}
+}
+/******************************************************************************************************/
+/***************************************840************************************************************/
+
+@media screen and (min-width: 840px){
+
+
+
+	#click-menu
+{
+	display: none;
+	top: 25px !important;
+}
+
+.front-page-nav
+
+{
+	display: block;
+}
+
+.front-page-nav-mobile
+
+{
+	display: none;
+}
+
+.front-page-nav-mobile ul
+{
+	visibility: hidden;
+}
+
+}
+
+/******************************************************************************************************/
+/***************************************839************************************************************/
+
+
+@media screen and (max-width: 839px) {
+	
+#hero
+{
+	margin-top: 4.5%;
+}
+
+#home_top img
+{
+	width: 85%;
+}
+
+#responsive-menu > #responsive-menu-title > a
+{
+	font-size: .875em !important;
+}
+
+body.page-id-32 .site-header .widget-area 
+{
+
+  max-width: 200px !important;
+  float: right;
+  text-align: right;
+  display: block;
+}
+
+.front-page-nav-mobile ul 
+{
+  visibility: hidden;
+}
+
+.front-page-nav
+{    	
+  display: none;
+}
+
+.front-page-nav-mobile 
+{
+   display: block; 
+   margin: 0 auto;
+   text-align: center;
+}
+
+.menu.menuOpen > ul
+{
+	 visibility: visible !important;
+}
+
+.menuIcon
+{
+  font-size: 2em;
+	background: transparent;
+}
+
+.menu-icon > a
+{
+	color: #2C2E2B;
+}
+
+.menuExpand
+{
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.front-page-nav-mobile .menu ul 
+{
+  padding: 0;
+  margin: 0;
+}
+
+.front-page-nav-mobile .menu ul li 
+{
+  display: inline-block;
+  float: left;
+  list-style: none;
+  padding: 0 0 0 5px;
+  margin: 0;
+}
+
+.front-page-nav-mobile .menuIcon 
+{
+  display: none;
+  background: transparent;
+  width: 100%;
+  text-align: center;
+}
+
+.front-page-nav-mobile.menuIcon > a 
+{
+  width: 100%;
+  display: inline-block;
+  color: #2C2E2B;
+}
+
+.front-page-nav-mobile .menuIcon a img 
+{
+  vertical-align: middle;
+}
+
+.front-page-nav-mobile .menu 
+{
+  max-height: 0;
+  float: none;
+  text-align: center;
+  width: 100%;
+  -webkit-transition: max-height 0.5s;
+  -moz-transition: max-height 0.5s;
+  transition: max-height 0.5s;
+}
+
+.front-page-nav-mobile.menuIcon.menu > .menuOpen
+{
+  max-height: 1000px;
+  -webkit-transition: max-height 0.5s;
+  -moz-transition: max-height 0.5s;
+  transition: max-height 0.5s;
+  background: rgba (0,0,0,0.5);
+  color: #fff;
+}
+
+.front-page-nav-mobile .menu ul li 
+{
+  display: block;
+  width: 100%;
+  background: #2C2E2B;
+  border-top: 1px solid #4d4d4d;
+}
+
+.front-page-nav-mobile .menu ul li:hover 
+{
+  background: #fff;
+	color: #e33666 !important;
+}
+
+.front-page-nav-mobile .menu ul li a 
+{
+  color: #fff;
+  text-shadow: #848484 0px 1px 2px;
+  padding: 10px 0;
+  width: 100%;
+}
+
+.front-page-nav-mobile .menu ul li a:hover
+{
+	color: #e33666 !important;
+}
+
+.front-page-nav-mobile .menuIcon 
+{
+  display: inline-block;
+}
+
+.front-page-nav-mobile .menuIcon:hover
+{
+	background: transparent !important;
+}
+
+.header-image .site-header .wrap .title-area 
+{
+  margin-top: 2.5% !important;
+}
+
+.site-header
+{
+  margin-top: -.5em;	
+}
+
+#click-menu
+{
+  display: block !important;
+  padding-top: 1.5em !important;
+}
+
+#click-menu .threeLines .line
+{
+  height: 5px !important;
+  margin-bottom: 6px !important;
+  background: #2C2E2B !important;
+  width: 100% !important;
+}
+
+.hummingbird-facts
+{
+	margin: 10% auto 0;
+}
+
+#socialicons
+{
+	font-size: 3em;
+}
+
+.blog-image
+{
+	width: 95%;
+	display: inline-block;
+	float: none;
+	margin: 2.5% 2.5%;
+}
+
+.blog-main-p
+{
+	width: 90%;
+	display: inline-block;
+	float: none;
+	margin: 2.5% 5%;
+}
+
+/************************************************************************************************************/
+/***************************************736 x 320************************************************************/
+	
+@media screen and (max-width: 736px) and (min-width: 320px){
+
+	.teal-background h1
+{
+		font-size: 1.25em;
+}
+
+	.teal-background h2
+{
+		font-size: 1.25em
+}
+
+#home_top 
+{
+	padding-top: 100px;
+}
+
+#home_top h1, #home_top h2
+
+{
+	position: relative; 
+	top: 3.5em;
+}
+
+	.pink h2 
+{
+    padding-top: 2.5em;
+}
+
+	.mobile-image img
+{
+	max-width: 95%;		
+}
+.wwd-button
+{
+	margin-top: 0 !important;
+}
+
+}
+
+/************************************************************************************************************/
